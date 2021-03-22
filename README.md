@@ -10,10 +10,7 @@ How to run ?
   UI Changes:
   1. If made any changes to the default port - 8080, make sure the changes has been made to the UI layer also. 
   2. Backend local port configure path: Shopit.now--UI/shop-it-now/src/api/api-endpoints.
-  3. api-endpoints is a .json file, make changes to the value endpoint:"localhost:8080", to the desired port. 
-      eg: {
-            endpoint:"localhost:9000"
-          }
+  3. api-endpoints is a .json file, make changes to the endpoints accordingly based on what you have configured.
           
 5. Run the project.
 
