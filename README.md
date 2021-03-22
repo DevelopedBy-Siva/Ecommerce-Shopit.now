@@ -1,6 +1,29 @@
 # Shopit.now
 An E-Commerce website made using React, Redux ,and Spring Boot Framework
 
+How to run ?
+  1. Download or clone the project.
+  2. Open the project in Eclipse or Intelij.
+  3. Run maven install.
+  4. Make changes in the application.properties files inorder to configure local port and database configurations.
+
+  UI Changes:
+  1. If made any changes to the default port - 8080, make sure the changes has been made to the UI layer also. 
+  2. Backend local port configure path: Shopit.now--UI/shop-it-now/src/api/api-endpoints.
+  3. api-endpoints is a .json file, make changes to the value endpoint:"localhost:8080", to the desired port. 
+      eg: {
+            endpoint:"localhost:9000"
+          }
+          
+5. Run the project.
+
+
+How to assign Roles: USER & ADMIN ?
+  1. Register the User and logout.
+  2. Go to the database and manually change the respective users role from User_Roles .i.e. edit USER to ADMIN.
+  3. Now login using the same credential with which user is registered with. 
+
+
 ## User Page
 
 
